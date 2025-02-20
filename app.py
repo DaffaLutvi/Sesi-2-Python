@@ -7,4 +7,8 @@ age = 19
 is_married= False
 amount_money = 10000000
 
-print (first_name ,last_name, age , is_married,amount_money)# Sesi-2-Python
+print(first_name ,last_name,",", age,"tahun")# Sesi-2-Python
+print(f"{first_name} {last_name}, {age} tahun")
+print("%s %s,%d tahun" %(first_name,last_name ,age)) 
+print(first_name + "" + last_name + "," +str(age) + "tahun")
+print("{} {},{} tahun".format(first_name,last_name,age))
